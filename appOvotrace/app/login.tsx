@@ -64,7 +64,11 @@ const LoginScreen = () => {
           >
             <TextInput
               style={styles.passwordInput}
+<<<<<<< HEAD
               placeholder="6+ C"
+=======
+              placeholder="6+ karakter"
+>>>>>>> 357f707c741474f4043cf66bae8d9c1ef7624b67
               placeholderTextColor="#d3a679"
               secureTextEntry={!showPassword}
               value={password}
@@ -119,6 +123,7 @@ const styles = StyleSheet.create({
     paddingBottom: 24,
   },
   backButton: {
+<<<<<<< HEAD
   position: 'absolute',
   top: 48,
   left: 20,
@@ -126,6 +131,18 @@ const styles = StyleSheet.create({
   zIndex: 1,
 },
 
+=======
+    position: 'absolute',
+    top: 48,
+    left: 20,
+    borderWidth: 1,
+    borderColor: '#D68D3B',
+    backgroundColor: '#fff',
+    padding: 8,
+    borderRadius: 4,
+    zIndex: 1,
+  },
+>>>>>>> 357f707c741474f4043cf66bae8d9c1ef7624b67
   header: {
     marginTop: 80,
     marginBottom: 32,
@@ -214,4 +231,8 @@ const styles = StyleSheet.create({
     fontSize: 15,
     marginTop: 6,
   },
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 357f707c741474f4043cf66bae8d9c1ef7624b67

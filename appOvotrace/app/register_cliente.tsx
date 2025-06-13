@@ -18,6 +18,7 @@ export default function RegisterClient() {
 
   return (
     <SafeAreaView style={styles.container}>
+<<<<<<< HEAD
       {/* Encabezado con flecha y título */}
       <View style={styles.header}>
         <TouchableOpacity onPress={() => router.back()} style={styles.backButton}>
@@ -28,6 +29,11 @@ export default function RegisterClient() {
 
       <ScrollView contentContainerStyle={styles.scroll}>
         
+=======
+      <ScrollView contentContainerStyle={styles.scroll}>
+        <Text style={styles.title}>Registro cliente</Text>
+
+>>>>>>> 357f707c741474f4043cf66bae8d9c1ef7624b67
         <Text style={styles.label}>Nombre</Text>
         <TextInput
           placeholder="Castro"
@@ -99,6 +105,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
   },
+<<<<<<< HEAD
   header: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -109,16 +116,26 @@ const styles = StyleSheet.create({
   backButton: {
     padding: 8,
     marginRight: 8,
+=======
+  scroll: {
+    padding: 24,
+    paddingBottom: 40,
+>>>>>>> 357f707c741474f4043cf66bae8d9c1ef7624b67
   },
   title: {
     fontSize: 24,
     fontWeight: '600',
+<<<<<<< HEAD
     textAlign: 'left',
     color: '#000',
   },
   scroll: {
     paddingHorizontal: 24,
     paddingBottom: 40,
+=======
+    textAlign: 'center',
+    marginBottom: 50,
+>>>>>>> 357f707c741474f4043cf66bae8d9c1ef7624b67
   },
   label: {
     fontSize: 14,

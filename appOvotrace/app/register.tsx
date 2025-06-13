@@ -8,10 +8,17 @@ export default function Register() {
 
   return (
     <View style={styles.container}>
+<<<<<<< HEAD
       {/* Botón de regreso con estilo café y cuadrado */}
         <TouchableOpacity onPress={() => router.back()} style={styles.backButton}>
             <Ionicons name="arrow-back" size={22} color="#D68D3B" />
         </TouchableOpacity>
+=======
+      {/* Botón estilo café de "Inicio" */}
+      <TouchableOpacity style={styles.backButton} onPress={() => router.push('/home')}>
+        <Text style={styles.backButtonText}>Inicio</Text>
+      </TouchableOpacity>
+>>>>>>> 357f707c741474f4043cf66bae8d9c1ef7624b67
 
       {/* Título */}
       <Text style={styles.header}>¿Cómo deseas registrarte?</Text>
@@ -50,6 +57,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
     position: 'relative',
   },
+<<<<<<< HEAD
    backButton: {
   position: 'absolute',
   top: 48,
@@ -57,6 +65,19 @@ const styles = StyleSheet.create({
   padding: 8,
   zIndex: 1,
 },
+=======
+  backButton: {
+    position: 'absolute',
+    top: 44,
+    left: 24,
+    borderWidth: 1,
+    borderColor: '#D68D3B',
+    backgroundColor: '#fff',
+    paddingVertical: 6,
+    paddingHorizontal: 16,
+    borderRadius: 4, // cuadrado, no redondo
+  },
+>>>>>>> 357f707c741474f4043cf66bae8d9c1ef7624b67
   backButtonText: {
     fontSize: 16,
     fontWeight: 'bold',
@@ -64,6 +85,11 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 357f707c741474f4043cf66bae8d9c1ef7624b67
   header: {
     fontSize: 28,
     fontWeight: '600',
@@ -93,4 +119,8 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '500',
   },
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 357f707c741474f4043cf66bae8d9c1ef7624b67

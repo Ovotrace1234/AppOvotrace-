@@ -13,4 +13,8 @@ export default function Home() {
       />
     </View>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 357f707c741474f4043cf66bae8d9c1ef7624b67

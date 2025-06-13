@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 357f707c741474f4043cf66bae8d9c1ef7624b67
 import React, { useState, useEffect } from 'react';
 import { Text, View, Button, StyleSheet } from 'react-native';
 import { BarCodeScanner } from 'expo-barcode-scanner';

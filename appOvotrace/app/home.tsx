@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 357f707c741474f4043cf66bae8d9c1ef7624b67
 import { View, Text, Image, TouchableOpacity, StyleSheet, SafeAreaView } from 'react-native';
 import { useRouter } from 'expo-router';
 
@@ -43,8 +46,13 @@ const styles = StyleSheet.create({
     gap: 30,
   },
   logo: {
+<<<<<<< HEAD
     width: 300, 
     height: 100,
+=======
+    width: 300, // Mucho más ancho
+    height: 100, // Más alto
+>>>>>>> 357f707c741474f4043cf66bae8d9c1ef7624b67
     resizeMode: 'contain',
   },
   slogan: {
@@ -55,8 +63,13 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   image: {
+<<<<<<< HEAD
     width: 350, 
     height: 280, 
+=======
+    width: 350, // Significativamente más ancho
+    height: 280, // Mucho más alto
+>>>>>>> 357f707c741474f4043cf66bae8d9c1ef7624b67
     resizeMode: 'contain',
     marginTop: 20,
   },
@@ -95,4 +108,8 @@ const styles = StyleSheet.create({
     color: '#007bff',
     fontWeight: 'bold',
   },
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 357f707c741474f4043cf66bae8d9c1ef7624b67
