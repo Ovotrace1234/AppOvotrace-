@@ -7,13 +7,13 @@ export default function PantallaPresentacion() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.content}>
-        <Image source={require('../assets/img/logo.png')} style={styles.logo} />
+        <Image source={require('../../assets/img/logo.png')} style={styles.logo} />
         <Text style={styles.slogan}>Escanea Conoce Confía</Text>
-        <Image source={require('../assets/img/pantallaInicio.png')} style={styles.image} />
+        <Image source={require('../../assets/img/pantallaInicio.png')} style={styles.image} />
       </View>
       
       <View style={styles.footer}>
-        <TouchableOpacity style={styles.boton} onPress={() => router.push('./auth/login')}>
+        <TouchableOpacity style={styles.boton} onPress={() => router.push('./login')}>
           <Text style={styles.botonTexto}>Inicia Sesión</Text>
         </TouchableOpacity>
         <Text style={styles.textoSecundario}>
@@ -42,8 +42,8 @@ const styles = StyleSheet.create({
     gap: 30,
   },
   logo: {
-    width: 300, 
-    height: 100,
+    width: 300, // Mucho más ancho
+    height: 100, // Más alto
     resizeMode: 'contain',
   },
   slogan: {
@@ -54,8 +54,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   image: {
-    width: 350, 
-    height: 280, 
+    width: 350, // Significativamente más ancho
+    height: 280, // Mucho más alto
     resizeMode: 'contain',
     marginTop: 20,
   },
