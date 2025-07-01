@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
-import { loginRequest } from '../api/auth'; // Ajusta si la ruta es distinta
+import { loginRequest } from '../services/auth'; // Ajusta si la ruta es distinta
 
 const LoginScreen = () => {
   const [email, setEmail] = useState('');

@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import { Ionicons, Feather, MaterialIcons } from '@expo/vector-icons';
 import { useRouter, useFocusEffect } from 'expo-router';
-import { getProfile, logoutRequest } from './api/auth';
+import { getProfile, logoutRequest } from './services/auth';
 
 export default function ProfileScreen() {
   const router = useRouter();

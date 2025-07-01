@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import { Ionicons, Feather, MaterialIcons } from '@expo/vector-icons';
 import { useRouter, useFocusEffect } from 'expo-router';
-import { getProfile, logoutRequest } from '../api/auth';
+import { getProfile, logoutRequest } from '../services/auth';
 
 export default function ProfileScreen() {
   const router = useRouter();
@@ -35,7 +35,7 @@ export default function ProfileScreen() {
 
   const handleLogout = async () => {
     await logoutRequest();
-    router.replace('/login');
+    router.replace('../auth/login');
   };
 
   return (
@@ -93,6 +93,7 @@ export default function ProfileScreen() {
           icon={<Feather name="log-out" size={20} color="#D68D3B" />}
           onPress={handleLogout}
         />
+
       </ScrollView>
     </SafeAreaView>
   );
